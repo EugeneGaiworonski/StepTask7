@@ -13,8 +13,9 @@ void ReplaceDot(string &str)
 
 int main()
 {
-  string str = "Example. string .for. experiments.";
+  string str = "";
   cout << str <<'\n';
+  getline(cin,str);
   ReplaceDot(str);
   cout << str;
   return 0;
